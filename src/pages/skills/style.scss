@@ -1,0 +1,37 @@
+// ============= CONSTANTS ELEMENTS ===========
+@import '../../assets/styles/constants.scss';
+
+// SKILLS PAGE STYLE
+.skills{
+    .explication{
+        margin: 2em 0;
+        p{
+            color: var(--thirdColor);
+            padding: .5em 0;
+        }
+    }
+    .skills-area{
+        .skill{
+            margin: 1em 0;
+            padding: 1.5em 1em;
+            background-color: var(--secondarycolor);
+            border-radius: 1em;
+            .skill-title{
+                @include flex();
+                span{
+                    font-size: 8px;
+                    margin-right: 1em;
+                    background-color: var(--thirdColor);
+                    color: var(--thirdColor);
+                    clip-path: circle();
+                }
+                margin-bottom: 1em;
+            }
+            .cards{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0 1em;
+            }
+        }
+    }
+}

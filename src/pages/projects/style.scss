@@ -1,0 +1,19 @@
+// ============= CONSTANTS ELEMENTS ===========
+@import '../../assets/styles/constants.scss';
+
+// PROJECTS PAGE STYLE
+.projects{
+    .explication{
+        margin: 2em 0;
+        p{
+            color: var(--thirdColor);
+            padding: .5em 0;
+        }
+    }
+    .projects-area{
+        margin: 1em 0;
+        padding: 1.5em 1em;
+        background-color: var(--secondarycolor);
+        border-radius: 1em;
+    }
+}

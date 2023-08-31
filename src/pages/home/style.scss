@@ -1,0 +1,63 @@
+// ============= CONSTANTS ELEMENTS ===========
+@import '../../assets/styles/constants.scss';
+
+// HOME PAGE STYLE
+.home{
+    .bio{
+        margin: 2em 0;
+        @include flexBC();
+        .text{
+            .description{
+                color: var(--thirdColor);
+                margin: .5em 0;
+            }
+            .actions-btn{
+                margin: 1em 0;
+            }
+        }
+        .image{
+            border-radius: 50%;
+            padding: .5em;
+            border: 3px solid var(--secondarycolor);
+            @include flex();
+            img{
+                background-color: var(--secondarycolor);
+                border-radius: 50%;
+                width: 130px;
+                padding: .5em;
+                // filter: grayscale(1);
+            }
+        }
+    }
+    .projects{
+        margin: 1em 0;
+        padding: 1.5em 1em;
+        background-color: var(--secondarycolor);
+        border-radius: 1em;
+        .all{
+            @include flexBC();
+            padding: .5em 1em;
+            background-color: var(--primaryColor);
+            font-size: 13px;
+            color: var(--textColor);
+            margin-right: 1em;
+            border: 2px solid var(--secondarycolor);
+            border-radius: 1em;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(51, 51, 51, 0.1) 0px 0px 0px 3px;
+            }
+        }
+    }
+}
+
+// MEDIA QUERY
+@media (max-width: "988px") {
+    .home{
+        .bio{
+            flex-direction: column-reverse;
+            .text .actions-btn{
+                justify-content: center;
+            }
+        }
+    }
+}
