@@ -18,16 +18,7 @@
 .main{
     margin: 0 25%;
 }
-// ============= CURSOR ===========
-.border: 1px solid #fff;
-    border-radius: 50%;
-    mix-blend-mode: difference;
-    padding: 0.7em;
-    pointer-events: none;
-    position: fixed;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    z-index: 99
+
 // ============= LAYOUTS ===========
 nav{
     margin: 1em;
@@ -49,19 +40,20 @@ nav{
             margin-right: 1em;
             opacity: .4;
             border-radius: 50%;
+            position: relative;
             span{
                 font-size: 28px;
             }
             h6{
                 position: absolute;
                 z-index: 101;
-                top: -1em;
+                top: -1.5em;
                 background-color: var(--textColor);
                 color: var(--primaryColor);
                 padding: .1em .5em;
                 border-radius: 2em;
-                margin-left: -.7em;
-                transform: translateY(1em);
+                left: 50%;
+                transform: translate(-50%, -0%);
                 opacity: 0;
                 transition: .4s;
             }
@@ -69,7 +61,7 @@ nav{
                 opacity: 1;
                 background-color: rgba(179, 179, 179, 0.216);
                 h6{
-                    transform: translateY(0);
+                    transform: translate(-50%, -50%);
                     opacity: 1;
                 }
             }
