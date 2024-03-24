@@ -5,6 +5,7 @@ import Copyright from '../../components/Copyright';
 import ProjectCard from '../../components/projects/ProjectCard';
 import data from '../projects/data.';
 import { motion } from "framer-motion";
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
 
@@ -34,6 +35,10 @@ export default function Home() {
             damping: 40,
         }}
     >
+      {/* Metadata */}
+      <Helmet>
+        <title>Badreddine Ibril | Creative Web Developer | Home</title>
+      </Helmet>
       {/* TITLE */}
         <div className="top-title">
             <div>

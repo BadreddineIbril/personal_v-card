@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import Copyright from '../../components/Copyright'
 import data from './data.'
 import { motion } from "framer-motion";
+import { Helmet } from 'react-helmet'
 
 export default function Projects() {
 
@@ -22,6 +23,10 @@ export default function Projects() {
             damping: 40,
         }}
     >
+        {/* Metadata */}
+        <Helmet>
+          <title>Badreddine Ibril | Projects</title>
+        </Helmet>
         {/* TITLE */}
         <div className="top-title">
             <div>

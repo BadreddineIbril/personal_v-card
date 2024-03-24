@@ -4,6 +4,7 @@ import Copyright from '../../components/Copyright'
 import SkillCard from '../../components/skills/SkillCard'
 import data from './data'
 import { motion } from "framer-motion";
+import { Helmet } from 'react-helmet'
 
 export default function Skills() {
 
@@ -28,6 +29,10 @@ export default function Skills() {
             damping: 40,
         }}
     >
+        {/* Metadata */}
+        <Helmet>
+          <title>Badreddine Ibril | Skills</title>
+        </Helmet>
         {/* TITLE */}
         <div className="top-title">
             <div>

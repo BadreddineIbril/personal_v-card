@@ -5,6 +5,7 @@ import Copyright from '../../components/Copyright';
 import data from '../details/data.js';
 import { useEffect } from 'react';
 import { motion } from "framer-motion";
+import { Helmet } from 'react-helmet';
 
 export default function Details() {
 
@@ -36,6 +37,10 @@ export default function Details() {
             damping: 40,
         }}
     >
+      {/* Metadata */}
+      <Helmet>
+        <title>Projects | {projectDetails.name}</title>
+      </Helmet>
       {/* PROJECT INTRO */}
       <div className="project-intro">
         <div>

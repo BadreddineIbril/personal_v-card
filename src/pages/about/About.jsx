@@ -3,6 +3,7 @@ import './style.scss';
 import Footer from '../../components/Footer';
 import Copyright from '../../components/Copyright';
 import { motion } from "framer-motion";
+import { Helmet } from 'react-helmet';
 
 export default function About() {
   return (
@@ -17,6 +18,10 @@ export default function About() {
             damping: 40,
         }}
     >
+        {/* Metadata */}
+        <Helmet>
+          <title>Badreddine Ibril | About Me</title>
+        </Helmet>
         {/* TITLE */}
         <div className="top-title">
             <div>
