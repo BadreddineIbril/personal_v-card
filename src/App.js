@@ -7,12 +7,10 @@ import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Skills from "./pages/skills/Skills";
 import Details from "./pages/details/Details";
-import Cursor from "./components/utils/Cursor";
 
 function App() {
   return (
     <div className="main">
-      <Cursor />
       <ScrollTop />
       <NavBar />
       <Routes>
