@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
 
     const [socials, setSocials] = useState([
-        { name: "x", icon: "https://loodibee.com/wp-content/uploads/Twitter-X-Logo.png", url: "https://twitter.com/Badrib2003" },
+        { name: "x", icon: "https://loodibee.com/wp-content/uploads/Twitter-X-Logo.png", url: "https://twitter.com/badr_ibril" },
         { name: "github", icon: "https://static-00.iconduck.com/assets.00/github-icon-2048x2048-91rgqivh.png", url: "https://github.com/BadreddineIbril" },
         { name: "linkedin", icon: "https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png", url: "https://www.linkedin.com/in/badreddine-ibril-6554b9236/" },
         { name: "website", icon: "https://cdn-icons-png.flaticon.com/512/1006/1006771.png", url: "https://badribril.netlify.app/" },
