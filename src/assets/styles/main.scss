@@ -293,7 +293,54 @@ footer{
     .copy{
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(51, 51, 51, 0.288) 0px 0px 0px 3px;
     }
+}
 
+// ============= Error | Not found ===========
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 79vh;
+  .error-content {
+    text-align: center;
+    h1 {
+      font-size: 40px;
+    }
+    .subtitle {
+      margin: .5em 0;
+      display: flex;
+      justify-content: center;
+      p {
+        width: 80%;
+        font-size: 13px;
+        color: var(--thirdColor);
+      }
+    }
+    img {
+      margin: 2em 0;
+      width: 300px;
+      filter: grayscale(1);
+    }
+    .action {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: .5em;
+        padding: 1em 1.2em;
+        background-color: var(--textColor);
+        color: var(--primaryColor);
+        border-radius: 0.5em;
+        font-size: 13px;
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+  }
 }
 
 
@@ -332,6 +379,16 @@ footer{
 @media (max-width: "780px") {
     .skills .skills-area .skill .cards{
         grid-template-columns: 1fr;
+    }
+    .not-found .error-content {
+      h1 {
+        font-size: 30px;
+      }
+      .subtitle {
+        p {
+          width: 100%;
+        }
+      }
     }
 }
 
