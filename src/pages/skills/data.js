@@ -1,7 +1,7 @@
 export default[
     [
         { name: "HTML5", per: "95%", img: "https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png" },
-        { name: "CSS3", per: "90%", img: "https://icons-for-free.com/iconfiles/png/512/css+develop+language+layout+programming+style+icon-1320165728409893942.png" },
+        { name: "CSS3", per: "90%", img: "https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png" },
         { name: "Javascript", per: "90%", img: "https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" },
         { name: "React Js", per: "90%", img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" },
         { name: "Sass", per: "85%", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png" },
