@@ -48,7 +48,7 @@ export default function NavBar() {
         </div>
         <div className="actions">
             <button className={themeSession ? 'mode checked' : 'mode'} onClick={()=>{ setTheme(!themeSession) }}>
-                <span class="material-symbols-outlined">light_mode</span>
+                <span class="material-symbols-outlined">{themeSession ? 'light_mode' : 'dark_mode'}</span>
             </button>
             <a href="mailto: badreddineibril@gmail.com">
                 <span class="material-symbols-outlined">maps_ugc</span>
