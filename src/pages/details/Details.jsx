@@ -46,7 +46,7 @@ export default function Details() {
         <div>
             <label>Client</label>
             <label>Project Type</label>
-            <label>Technologie</label>
+            <label>Technologies</label>
             <label>Year</label>
         </div>
         <div>
@@ -64,7 +64,7 @@ export default function Details() {
         <h1>{projectDetails.name}</h1>
         <p className='desc'>{projectDetails.description.text}</p>
         <Link to={`https://badribril.netlify.app/details/${projectDetails.id}`} target='_blank'>
-            <p>Discoverd</p>
+            <p>Discover</p>
             <span class="material-symbols-outlined">chevron_right</span>
         </Link>
         <img src={projectDetails.img} alt={projectDetails.name} />
