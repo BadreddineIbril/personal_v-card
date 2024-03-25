@@ -54,7 +54,7 @@ export default function Home() {
       <div className="bio">
           <div className="text">
               <h1>I’m Badreddine Ibril</h1>
-              <p className='description'>Creative web developer from Morocco.</p>
+              <p className='description'>Creative web developer from Casablanca, Morocco.</p>
               <div className="actions-btn">
                 <a href="mailto: badreddineibril@gmail.com">
                   <span class="material-symbols-outlined">maps_ugc</span>
