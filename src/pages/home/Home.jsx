@@ -86,7 +86,7 @@ export default function Home() {
           <div className="cards">
               {
                 projectsData.map((item, i)=>{
-                  return i < 4 && <ProjectCard title={item.name} bg={item.color} id={item.id} subtitle={item.subtitle} />
+                  return i < 4 && <ProjectCard key={i} title={item.name} bg={item.color} id={item.id} subtitle={item.subtitle} />
                 })
               }
           </div>
