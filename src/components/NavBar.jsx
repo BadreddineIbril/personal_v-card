@@ -40,7 +40,7 @@ export default function NavBar() {
         {
             links.map((item, i)=>{
                 return  <Link to={item.path} key={i} className={item.path == url ? "active" : ""}>
-                            <span class="material-symbols-outlined">{item.icon}</span>
+                            <span className="material-symbols-outlined">{item.icon}</span>
                             <h6>{item.name}</h6>
                         </Link>
             })
@@ -48,10 +48,10 @@ export default function NavBar() {
         </div>
         <div className="actions">
             <button className={themeSession ? 'mode checked' : 'mode'} onClick={()=>{ setTheme(!themeSession) }}>
-                <span class="material-symbols-outlined">{themeSession ? 'light_mode' : 'dark_mode'}</span>
+                <span className="material-symbols-outlined">{themeSession ? 'light_mode' : 'dark_mode'}</span>
             </button>
             <a href="mailto: badreddineibril@gmail.com">
-                <span class="material-symbols-outlined">maps_ugc</span>
+                <span className="material-symbols-outlined">maps_ugc</span>
                 <p>Hire Me</p>
             </a>
         </div>

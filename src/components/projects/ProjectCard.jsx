@@ -13,7 +13,7 @@ export default function ProjectCard({ title, bg, id, subtitle }) {
                 <p>{subtitle}</p>
             </div>
         </div>
-        <span class="material-symbols-outlined">chevron_right</span>
+        <span className="material-symbols-outlined">chevron_right</span>
     </Link>
   )
 }

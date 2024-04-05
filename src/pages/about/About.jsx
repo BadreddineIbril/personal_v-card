@@ -25,7 +25,7 @@ export default function About() {
         {/* TITLE */}
         <div className="top-title">
             <div>
-              <span class="material-symbols-outlined">radio_button_unchecked</span>
+              <span className="material-symbols-outlined">radio_button_unchecked</span>
               <h3>About</h3>
             </div>
         </div>

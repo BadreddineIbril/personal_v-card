@@ -27,17 +27,17 @@ export default function Footer() {
         <p className='slogan'>Creating user experience and visual appealing design</p>
         <div className="actions-btn">
             <a href="mailto: badreddineibril@gmail.com">
-                <span class="material-symbols-outlined">maps_ugc</span>
+                <span className="material-symbols-outlined">maps_ugc</span>
                 <p>Hire Me</p>
             </a>
             <button onClick={()=>{ copy() }} className={copyEmail ? "copy" : ""}>
-                <span class="material-symbols-outlined">{copyEmail ? "done" : "content_copy"}</span>
+                <span className="material-symbols-outlined">{copyEmail ? "done" : "content_copy"}</span>
                 <p>Copy Email</p>
             </button>
         </div>
         <div className="top-title socials">
             <div>
-                <span class="material-symbols-outlined">radio_button_unchecked</span>
+                <span className="material-symbols-outlined">radio_button_unchecked</span>
                 <h3>Follow Me</h3>
             </div>
             <div className="social-links">

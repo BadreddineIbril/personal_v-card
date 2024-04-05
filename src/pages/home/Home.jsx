@@ -42,11 +42,11 @@ export default function Home() {
       {/* TITLE */}
         <div className="top-title">
             <div>
-              <span class="material-symbols-outlined">radio_button_unchecked</span>
+              <span className="material-symbols-outlined">radio_button_unchecked</span>
               <h3>Full Stack Developer</h3>
             </div>
             <div className='available'>
-              <span class="material-symbols-outlined">radio_button_unchecked</span>
+              <span className="material-symbols-outlined">radio_button_unchecked</span>
               <p>available for work</p>
             </div>
         </div>
@@ -57,11 +57,11 @@ export default function Home() {
               <p className='description'>Creative web developer from Casablanca, Morocco.</p>
               <div className="actions-btn">
                 <a href="mailto: badreddineibril@gmail.com">
-                  <span class="material-symbols-outlined">maps_ugc</span>
+                  <span className="material-symbols-outlined">maps_ugc</span>
                   <p>Hire Me</p>
                 </a>
                 <button onClick={()=>{ copy() }} className={copyEmail ? "copy" : ""}>
-                  <span class="material-symbols-outlined">{copyEmail ? "done" : "content_copy"}</span>
+                  <span className="material-symbols-outlined">{copyEmail ? "done" : "content_copy"}</span>
                   <p>Copy Email</p>
                 </button>
               </div>
@@ -74,12 +74,12 @@ export default function Home() {
       <div className="projects">
           <div className="top-title">
               <div>
-                <span class="material-symbols-outlined">radio_button_unchecked</span>
+                <span className="material-symbols-outlined">radio_button_unchecked</span>
                 <h3>Projects</h3>
               </div>
               <Link to='/projects' className='all'>
                 <p>View All</p>
-                <span class="material-symbols-outlined">arrow_right_alt</span>
+                <span className="material-symbols-outlined">arrow_right_alt</span>
               </Link>
           </div>
           {/* PROJECTS */}

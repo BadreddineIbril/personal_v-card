@@ -30,7 +30,7 @@ export default function Projects() {
         {/* TITLE */}
         <div className="top-title">
             <div>
-              <span class="material-symbols-outlined">radio_button_unchecked</span>
+              <span className="material-symbols-outlined">radio_button_unchecked</span>
               <h3>Projects</h3>
             </div>
         </div>

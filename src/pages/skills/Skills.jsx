@@ -36,7 +36,7 @@ export default function Skills() {
         {/* TITLE */}
         <div className="top-title">
             <div>
-              <span class="material-symbols-outlined">radio_button_unchecked</span>
+              <span className="material-symbols-outlined">radio_button_unchecked</span>
               <h3>Skills</h3>
             </div>
         </div>
@@ -51,7 +51,7 @@ export default function Skills() {
               skillsData.map((item, i)=>{
                 return <div className="skill" key={i}>
                           <div className='skill-title'>
-                            <span class="material-symbols-outlined">radio_button_unchecked</span>
+                            <span className="material-symbols-outlined">radio_button_unchecked</span>
                             <h3>{item.type}</h3>
                           </div>
                           <div className="cards">

@@ -65,7 +65,7 @@ export default function Details() {
         <p className='desc'>{projectDetails.description.text}</p>
         <Link to={`https://badribril.netlify.app/details/${projectDetails.id}`} target='_blank'>
             <p>Discover</p>
-            <span class="material-symbols-outlined">chevron_right</span>
+            <span className="material-symbols-outlined">chevron_right</span>
         </Link>
         <img src={projectDetails.img} alt={projectDetails.name} />
       </div>
